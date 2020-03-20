@@ -1,0 +1,75 @@
+
+{
+	"error_code": 1,
+	"resultcode": "200",
+	"reason": "成功的返回",
+	"result": {
+		"BJ": {
+			"province": "北京",
+			"citys": [{
+				"city_name": "北京",
+				"city_code": "BJ",
+				"abbr": "京",
+				"engine": "1",
+				"engineno": "0",
+				"class": "0",
+				"classno": "0",
+				"regist": "0",
+				"registno": 1
+			}]
+		},
+		"SH": {
+			"province": "上海",
+			"citys": [{
+				"city_name": "上海",
+				"city_code": "SH",
+				"abbr": "沪",
+				"engine": "1",
+				"engineno": "0",
+				"class": "0",
+				"classno": "0",
+				"regist": "0",
+				"registno": 1
+			}]
+		},
+
+		"LN": {
+			"province": "辽宁",
+			"citys": [{
+					"city_name": "沈阳",
+					"city_code": "LN_SY",
+					"abbr": "辽",
+					"engine": "0",
+					"engineno": "0",
+					"class": "1",
+					"classno": "4",
+					"regist": "0",
+					"registno": 1
+				},
+				{
+					"city_name": "锦州",
+					"city_code": "LN_JZ",
+					"abbr": "辽",
+					"engine": "0",
+					"engineno": "0",
+					"class": "1",
+					"classno": "6",
+					"regist": "0",
+					"registno": 1
+				},
+				{
+					"city_name": "大连",
+					"city_code": "LN_DL",
+					"abbr": "辽",
+					"engine": "0",
+					"engineno": "0",
+					"class": "1",
+					"classno": "0",
+					"regist": "0",
+					"registno": 1
+				}
+			]
+		}
+	}
+}
+

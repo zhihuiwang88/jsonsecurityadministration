@@ -1,0 +1,25 @@
+{
+	"reason": "成功",
+	"result": {
+		"data": {
+			"name": "中国移动",
+			"teldesc": "统一客服电话",
+			"catnames": [
+				"运营商",
+				"热线电话"
+			],
+			"telnum": "10086",
+			"itag_ids": [{
+				"financialInformation": "好",
+				"thirdParty": "可以",
+				"networkCredit": "真棒"
+			}, {
+				"financialInformation": "行",
+				"thirdParty": "厉害",
+				"networkCredit": "正好"
+			}]
+		},
+		"orderid": "JH5111190814131527456478oP"
+	},
+	"error_code": 0
+}

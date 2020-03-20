@@ -1,0 +1,66 @@
+
+
+AlertComparesRequestController.java
+localhost:8081/jsondemo/alert/compares 测试请求参数
+
+{
+"startTime":"202002",
+"endTime":"20200356",
+"personnelLevel":[
+{"PERSONNEL_LEVEL_UNKNOWN":"未知",
+"PERSONNEL_LEVEL_RED":"红色，在逃人员，布控人员"},
+{"PERSONNEL_LEVEL_ORANGE":"橙色，治安重点人员"}
+],
+"deviceTagIds":[]
+}
+
+
+列出身份识别信息列表接口
+IdentityVerifiesController.java
+localhost:8081/jsondemo/identity/verifies
+
+{
+	"next_marker": "从第8页开始",
+	"identity_verify_infos": [{
+			"imageId": "147",
+			"deviceId": "852",
+			"imageSource": {
+				"IMAGE_SOURCE_UNKNOWN": "未知图片来源"
+			},
+			"status": {
+				"IDENTITY_VERIFY_PROCESS_STATUS_UNKNOWN": "未知状态"
+			},
+			"identities": {
+				"name": "李四",
+				"birthday": "2020231"
+			}
+		},
+		{
+			"imageId": "147",
+			"deviceId": "852",
+			"imageSource": {
+				"IMAGE_SOURCE_UNKNOWN": "未知图片来源"
+			},
+			"status": {
+				"IDENTITY_VERIFY_PROCESS_STATUS_UNKNOWN": "未知状态"
+			},
+			"identities": {
+				"name": "张三",
+				"birthday": "1998231"
+			}
+		}
+	]
+}
+
+
+
+3. API文档在\jsondemo\doc\治安.doc
+
+4. HttpClientNewUtil类处理URL(get和post)
+
+
+
+
+
+
+
